@@ -17,15 +17,14 @@ header{
     align-items: center;
     padding: 10px;
     background-color: #03081d;
-    
+    justify-content: space-between;
+    justify-content: space-around;
+    gap: 15px;
 
 }
 
 header nav{
-
     background-color: #041123;
-    
-    
 }
 
 header nav li:hover{
@@ -56,12 +55,15 @@ a{
     cursor: pointer;
 
 }
+.logo_spot{
+    display: flex;
+    align-items: center;
+}
 
 #navigation{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 400px;
     background-color: #03081d;
 }
 
@@ -71,14 +73,15 @@ a{
    justify-content: space-between;
    gap: 20px;
 }
-.button{
+
+.search{
     margin-left: 150px;
     width: 150px;
     height: 30px;
     border: 1px solid white;
     border-radius: 15px;
     color: white;
-    cursor: pointer;
+    padding: 5px;
     background-color: #03081d;
 
 }
@@ -87,7 +90,7 @@ span{
     margin-right: 90px;
 }
 
-.buttoni{
+.login{
     width: 90px;
     margin-left: 70px;
     border-radius: 8px;
@@ -99,9 +102,9 @@ span{
     background-color: #03081d;
 }
 
-.buton{
+.signup{
     width: 90px;
-    margin-left: 50px;
+    margin-left: 30px;
     border-radius: 8px;
     background-color: blue;
     height: 40px;
