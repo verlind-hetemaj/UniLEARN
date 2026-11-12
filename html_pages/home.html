@@ -11,7 +11,7 @@
 <body>
     
         <header>
-            <div class="logo_spot" href="home.html">
+            <div class="logo_spot" onclick="backToHome()">
             <img src="../images/img/logo (2).png" alt="Logo" class="logo_kryesore">
             <h4>UniLEARN</h4>
             </div>
@@ -26,11 +26,11 @@
 
 
     <div id="btn">
-            <form action="home.html" method="get">
+            <form action="/html_pages/subjects.html" method="get">
                 <button class="search"><img src="../images/img/search.png" alt="Search" class="search-icon"></button>
             </form>
-                <button class="login">Log In</button>
-                <button class="signup">Sign Up</button>
+                <button onclick="loginDirection()" class="login">Log In</button>
+                <button onclick="signupDirection()" class="signup">Sign Up</button>
     </div>
 
     
@@ -54,6 +54,6 @@
        
   </main>
 
-
+  <script src="../js/direction.js"></script>
 </body>
 </html>
