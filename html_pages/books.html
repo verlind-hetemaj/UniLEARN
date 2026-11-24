@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UniLEARN</title>
     <link rel="icon" href="../images/img/logo (2).png" type="png">
-    <link rel="stylesheet" href="../css/navigation.css">  
+    <link rel="stylesheet" href="../css/navigation.css">
+    <link rel="stylesheet" href="../css/text.css">  
+    <link rel="stylesheet" href="../css/books.css">  
     <script src="../js/direction.js" defer></script>
 </head>
 <body>
@@ -17,8 +19,8 @@
         <nav id="navigation">
             <ul>
                 <li><a href="home.html">Home</a></li>
-                <li><a href="subjects.html">Subject</a></li>
                 <li><a href="courses.html">Courses</a></li>
+                <li><a href="shelf.html">My Shelf</a></li>
                 <li><a href="books.html">Books</a></li>
             </ul>
         </nav>
@@ -33,6 +35,44 @@
     
         
     </header> 
+     <main>
+        <section>
+            <div class="container" id="container_1">
+                <button class="main-button">Textbooks & References</button>
+                <br>
+                <br>
+                <div class="tekst">
+                    <h1 class="main-text">
+                    Our Courses<br>
+                    <span class="lower-text">Academic Books</span>
+                    </h1>
+                    <p class="paragraph">Save textbooks to My Shelf </p>
+                </div>
+            </div>
+        </section>
+        
+        <section>
+            <div class="input_subject">
+                <input type="text" name="search" class="subject_search" placeholder="Search by book title...">
+
+                <div class="inputs-container">
+                <div class="inputs">
+                    <select name="Category" id="category">
+                    <option value="">All Subjects</option>
+                    <option value="software-engineering">SOFTWARE SYSTEM ENGINEERING (SSE)</option>
+                    <option value="communication-engineering">COMMUNICATION ENGINEERING(CE)</option>
+                    <option value="data-engineering">DATA ENGINEERING(DE)</option>
+                    <option value="web-programming">WEB & MOBILE PROGRAMMING (WMP)</option>
+                    <option value="cyber">CYBER SECURITY (CS)</option>
+                    <option value="graphics">GRAPHICS AND MULTIMEDIA (GM)</option>
+                
+                </select>
+                </div>
+                </div>
+            </div>
+
+        </section>  
+        
 
 
 
